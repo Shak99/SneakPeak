@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button, Form, Grid, Header, Image, Message, Segment } from 'semantic-ui-react'
-//import ErrorMessage from "../../components/ErrorMessage/ErrorMessage";
+import ErrorMessage from "../../components/ErrorMessage/ErrorMessage";
 
 import userService from "../../utils/userService";
 import { useNavigate } from "react-router-dom";
